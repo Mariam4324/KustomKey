@@ -1,0 +1,32 @@
+.burger {
+  &__menu {
+    max-width: 42px;
+    height: 42px;
+  }
+
+  &__wrapper {
+    display: none;
+    transition: 0.4s all;
+  }
+
+  &__list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  &__item {
+    padding: 6px 80px 6px 0;
+    color: #606060;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__active {
+    display: block;
+    transition: 0.4s all;
+  }
+}

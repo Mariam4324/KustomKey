@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+  .header {
+    background: #f9f9f9;
+    padding: 30px 0;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    &__icon {
+      border-radius: 50%;
+      max-width: 46px;
+      height: 46px;
+    }
+
+    &__title {
+      color: #000;
+      font-size: 21px;
+      font-weight: 600;
+    }
+  }
+
+  
+}
